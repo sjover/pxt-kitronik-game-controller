@@ -25,9 +25,9 @@ namespace Kitronik_Game_Controller {
         //% block="Joypad Down (P14)"
         Down = DAL.MICROBIT_ID_IO_P12,
         //% block="Joypad Left (P12)"
-        Left = DAL.MICROBIT_ID_IO_P15,
+        Left = DAL.MICROBIT_ID_IO_P14,
         //% block="Joypad Right (P13)"
-        Right = DAL.MICROBIT_ID_IO_P14,
+        Right = DAL.MICROBIT_ID_IO_P15,
         //% block="Fire 1 (P15)"
         Fire1 = DAL.MICROBIT_ID_IO_P15,
         //% block="Fire 2 (P16)"
