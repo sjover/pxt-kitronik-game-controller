@@ -12,8 +12,10 @@ namespace Kitronik_Game_Controller {
 	    Down,
 	    Left,
 	    Right,
-	    Fire1,
-	    Fire2
+	    FireL,
+	    FireR,
+        FireX,
+        FireY
 	}
 
     /**
@@ -23,15 +25,18 @@ namespace Kitronik_Game_Controller {
         //% block="Joypad Up (P8)"
         Up = DAL.MICROBIT_ID_IO_P8,
         //% block="Joypad Down (P14)"
-        Down = DAL.MICROBIT_ID_IO_P12,
+        Down = DAL.MICROBIT_ID_IO_P13,
         //% block="Joypad Left (P12)"
         Left = DAL.MICROBIT_ID_IO_P14,
         //% block="Joypad Right (P13)"
         Right = DAL.MICROBIT_ID_IO_P15,
         //% block="Fire 1 (P15)"
-        Fire1 = DAL.MICROBIT_ID_IO_P15,
+        FireL = DAL.MICROBIT_ID_IO_P5,
         //% block="Fire 2 (P16)"
-        Fire2 = DAL.MICROBIT_ID_IO_P16
+        FireR = DAL.MICROBIT_ID_IO_P11,
+
+        FireX = DAL.MICROBIT_ID_IO_P1,
+        FireY = DAL.MICROBIT_ID_IO_P2,  
     }
 
     /**
